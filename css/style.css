@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+    background-color: lemonchiffon;
+}
+
+.title {
+   text-align: center;
+   color: fuchsia;
+   font-family: 'Lobster', cursive;
+   font-size: 5rem;
+   position: relative;
+   animation: title;
+   animation-duration: 3s;
+}
+
+@keyframes title {
+    0% {top:-250px}
+    100% {top: 0}
+}
+
+
+.ingredients {
+    border: 1px solid black;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.ingredients-table {
+    border: 1px solid black;
+    margin: 0 auto;
+    color: grey;
+}
+
+.instructions {
+    border: 1px solid black;
+    width: 50%;
+    margin: 0 auto;
+    color: grey;
+}
+
+.titles {
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+    text-align: center;color: fuchsia;
+}
+
+.instructions ol {
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 75%;
+}
+
+.img {
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    animation: img;
+    animation-duration: 3s;
+}
+
+@keyframes img {
+    0% {left: -1000px;}
+    100% {left: 0%;}
+}
+
+.footer {
+    border: 1px solid red;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: fuchsia;
+    position: relative;
+    animation: footer;
+    animation-duration: 3s;
+}
+
+@keyframes footer {
+    0% {top:-250px}
+    100% {top: 0}
+}
